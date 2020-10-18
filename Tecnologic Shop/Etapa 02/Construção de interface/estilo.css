@@ -1,0 +1,265 @@
+*{margin: 0; padding:0;}
+
+body{
+	background-color: rgb(255,255,255);
+
+}
+nav{
+	text-align: right;
+	width: 100%;	
+	padding: 15px;
+	box-sizing: border-box;
+
+
+}
+header, img{
+	width: 100%;
+	height:550px;
+}
+
+article{
+	width: 100%;
+	background-color: #;
+	padding: 30px;
+	box-sizing: border-box;
+}
+a{
+	font-family: Josefin Sans, avenir, sans-serif;
+	font-size: 1.4rem;
+	color: black;
+	text-align:right;
+	text-decoration: none;
+	margin-right: 30px;
+}
+.a-menu:hover,.a-menu:active{
+	color: #60a292;
+}
+.a-menu:alink,.a-menu:visited{
+	color: #f3c081;
+}	
+
+h1{
+ 	font-family: Josefin Sans,avenir, sans-serif; 
+	font-size: 7rem;
+	color: #00c4cc;
+	opacity: 30%;
+	text-align:center;
+	padding: 8px;
+	margin-top: 30px;
+	margin-left:700px;
+
+}
+
+h2{
+	font-family: Josefin Sans,avenir, sans-serif;
+	font-size:  3rem;
+	color: #60a292;
+	text-align:center;
+
+	margin:0px, 
+}
+
+p{
+	font-family:Josefin Sans, avenir, sans-serif;
+	font-size: 1.2rem; 
+	color: gray;
+	background-color: white;
+	text-align: justify;
+	letter-spacing: 3px;
+	margin-left:200px; 
+	padding: 30px;
+	width: 900px;
+	line-height: 30px; 
+	box-sizing: border-box;
+}
+
+
+h3{
+	font-family: Josefin Sans,avenir, sans-serif;
+	font-size: 1.5rem;
+	color: #f3c081;
+	text-align:center;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+h4{
+	font-family: Josefin Sans, avenir, sans-serif;
+	font-size: 1.2rem;
+	color: gray;
+	text-align:center;
+	padding: 10px;
+	margin-top: 10px;
+}
+section{
+	padding: 20px;
+}
+.img-produto{
+	width: 200px;
+	height: 200px;
+	align-content: center;
+}
+
+#Vantagens{
+	background-color: red;
+
+}
+
+#container1{
+	display: flex;
+}
+.card{
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 0px;
+	box-shadow:1px 2px 3px #00c4cc;
+	transition: 0.8;
+	margin-bottom:60px;
+	width: 250px;
+	height: 520px;
+	margin-top: 30px;
+	cursor: pointer;
+
+}
+.card:hover{
+	box-shadow:1px 8px 10px #00c4cc; 
+}
+
+#Produtos{
+	background-color: ;
+}
+
+#Encomendas{
+	padding: 20px;
+	text-align: left;
+}
+#container-formulario{
+display: flex;
+}
+
+footer a{
+	font-family:Josefin Sans, avenir, sans-serif;
+	font-size: 1.2rem; 
+}
+
+/*pagina de encomendas*/
+
+
+#Encomendas h3{
+	width: 420px;
+	font-family: Josefin Sans,avenir, sans-serif;
+	font-size: 1.4rem;
+	color: #f3c081;
+	text-align:center;
+	padding: 20px;
+	margin-top: 30px;
+	margin: 0 auto;
+}
+
+form{
+	width: 420px;
+	background-color: ;
+	margin: 0 auto;
+}
+input,select{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 24px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	border: 2px solid #00c4cc; 
+	border-radius: 10px;
+	font: 1rem Josefin Sans, sans-serif;
+	color: gray;
+
+}
+label{
+	font: 1.1rem Josefin Sans, sans-serif;
+	color: gray;
+	margin-bottom: 15px;
+}
+fieldset{
+	margin-bottom: 10px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	border: 2px solid #00c4cc; 
+	border-radius: 10px;
+	font: 1.1rem Josefin Sans, sans-serif;
+	color: gray;
+	padding: 30px;
+}
+
+input[type="radio"]{
+	width: 15px;
+	height: 15px;
+	margin-left:20px;
+	padding: 10px;
+}
+
+legend{
+	margin-bottom: 4px;
+	padding: 10px;
+	box-sizing: border-box;
+	font: 1.1rem Josefin Sans, sans-serif;
+	color: gray;
+}
+textarea{
+	width: 420px;
+	height: 80px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border: 2px solid #00c4cc; 
+	border-radius: 10px;
+}
+
+
+}
+#botoes{
+	display: flex;
+
+}
+input[type="submit"]{
+	padding:10px;
+	border: 2px solid #00c4cc; 
+	border-radius: 10px;
+	font: 1rem Josefin Sans, sans-serif;
+    font-weight: bolder;
+}
+
+input[type=submit]:hover { /*mudança de cor quando passar o mouse sobre o botão*/
+    background:rgba(0, 196, 204, 0.40);
+}
+
+input[type="reset"]{
+	margin-bottom: 100px;
+	border: 2px solid red; 
+	border-radius: 10px;
+	font: 1rem Josefin Sans, sans-serif;
+	font-weight: bolder;
+	
+}
+input[type=reset]:hover { /*mudança de cor quando passar o mouse sobre o botão*/
+    background:rgba(255,59,51, 0.40)
+}
+footer a{
+	text-align: center;
+	background-color: #00c4cc;
+	padding: 5px;
+	color: white;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+footer p{
+	text-align: center;
+	background-color: #00c4cc;
+	padding: 5px;
+	color: white;
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
+
+}
+
